@@ -5,7 +5,7 @@ const Banner = () => {
        <div className="hero bg-base-200 min-h-[50vh] rounded-2xl container mx-auto">
   <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
     <img
-      src="Book-Vibe-Project/assets/pngwing 1.png"
+      src="Book-Vibe-Project/src/assets/pngwing 1.png"
       className="rounded-lg max-w-[318px]"
     />
     <div className="space-y-5">
