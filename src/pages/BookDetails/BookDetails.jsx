@@ -5,7 +5,7 @@ import { FaBookmark } from "react-icons/fa";
 import { useParams } from "react-router";
 import { listedBookContext } from "../../BookContext/BookContext";
 
-const booksPromise=fetch('/data/booksData.json').then(response => response.json()) ;  
+const booksPromise=fetch('/Book-Vibe-Project/data/booksData.json').then(response => response.json()) ;  
 const BookDetails = () => {
     const {bookId}=useParams()
 

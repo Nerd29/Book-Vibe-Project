@@ -6,7 +6,7 @@ import Cards from "../Cards/Cards";
 
 
 
-const booksPromise=fetch('/data/booksData.json').then(response => response.json()) ;
+const booksPromise=fetch('/Book-Vibe-Project/data/booksData.json').then(response => response.json()) ;
 const AllBooks = () => {
 
     const books= use(booksPromise)
